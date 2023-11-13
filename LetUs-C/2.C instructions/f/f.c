@@ -15,7 +15,7 @@ int main()
  
  wcf=35.74+0.6216*t+(0.425*t-35.75)*pow(v,0.16);
  
- printf("The wind chill factor is : %d\n",wcf);
+ printf("The wind chill factor is : %f\n",wcf);
  
  return 0;	
 }

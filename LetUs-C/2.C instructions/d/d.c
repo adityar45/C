@@ -7,7 +7,7 @@ Hint: r = sqrt(x^2+y^2) and theta = tan^-1(y/x) */
 int main()
 {
  float x,y,r,theta;
- printf("Enter x and y co-ordinates:");
+ printf("Enter x and y co-ordinates:(float values only)");
  scanf("%f%f",&x,&y);
  
  r=sqrt(x*x+y*y);

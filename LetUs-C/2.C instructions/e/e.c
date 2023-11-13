@@ -14,11 +14,13 @@ int main()
  printf("Enter the two values of longitude (in degrees):\t");
  scanf("%f%f",&g1,&g2);
  
+ //convert values from degree to radian
  l1=l1*3.14/180;
  l2=l2*3.14/180;
  g1=g1*3.14/180;
  g2=g2*3.14/180;
  
+ //formula
  d=3963*acos(sin(l1)*sin(l2)+cos(l1)*cos(l2)*cos(g2-g1));
  
  printf("The distance between two places in nautical miles is :%f\n",d);
