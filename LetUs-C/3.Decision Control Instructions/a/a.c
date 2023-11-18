@@ -5,22 +5,28 @@ or loss. Also determine how much profit or loss he incurred.*/
 
 int main()
 {
-    int cost_price, sell_price, calc;
+    float cost_price, sell_price, profit, loss;
 
     printf("\nEnter cost price for the item :\t");
-    scanf("%d", &cost_price);
+    scanf("%f", &cost_price);
     printf("\nEnter selling price for this item :\t");
-    scanf("%d", &sell_price);
+    scanf("%f", &sell_price);
 
-    calc = sell_price - cost_price;
+    profit = sell_price - cost_price;
+    loss = cost_price - sell_price;
 
-    if(calc>0)
+    if(profit > 0)
     {
-        printf("\nThe profit is :%d", calc);
+        printf("\nThe profit is :%f", profit);
     }
-    else
+    
+    if(loss > 0)
     {
-        calc *= (-1);
-        printf("\nThe loss is :%d", calc);
+        printf("\nThe loss is :%f", loss);
+    }
+
+    if(profit == loss)
+    {
+        printf("\nNo profit, No Loss !");
     }
 }
