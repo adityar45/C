@@ -1,4 +1,4 @@
-/*l.Given a point (x,y) write a program to find out if it lies pn the x-axix, y-axis or on the origin*/
+/*l.Given A Point (x,y) write a program to find out if it lies pn the x-axix, y-axis or on the origin*/
 
 #include<stdio.h>
 
@@ -22,4 +22,6 @@ int main()
         else
             printf("\nPoint neither lies on any axis and origin.");
     }
+
+    return(0);
 }
