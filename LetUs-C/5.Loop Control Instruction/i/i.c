@@ -1,6 +1,5 @@
 /*i.Write a program to find the range of a set of numbers entered through keyboard.
-Range is the difference between smallest and biggest number in the list
-*/
+Range is the difference between smallest and biggest number in the list*/
 
 #include <stdio.h>
 
@@ -8,7 +7,7 @@ int main()
 {
     int count,num,big,small,range;
 
-    printf("\nHow many number you want to enter ti find the range :\t");
+    printf("\n\nHow many number you want to enter ti find the range :\t");
     scanf("%d", &count);
 
     int flag = 0;

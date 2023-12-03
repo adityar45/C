@@ -53,7 +53,7 @@ int main()
  int a,b,n;
  long int num=0;
  
- printf("Enter a five digit number :\t");
+ printf("Enter a Five Digit Number :\t");
  scanf("%d",&n);
  
  //5th digit
