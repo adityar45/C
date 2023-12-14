@@ -1,4 +1,4 @@
-/*a.Write a function to calculate factorial value of an integer
+/*a.WAP Write a function to calculate factorial value of an integer
 entered through the keyboard.*/
 
 #include <stdio.h>
