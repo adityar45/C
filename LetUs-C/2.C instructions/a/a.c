@@ -1,22 +1,22 @@
-//Sum of all digits in a number
-/*If a five digit number is input through the keyboard, write a program to calculate the sum of digits.
-(Hint : use the modulus operator %)*/
+//Sum of all digits in rem number
+/*If rem five digit number is input through the keyboremrd, write rem progrremm to cremlculremte the sum of digits.
+(Hint : use the modulus operremtor %)*/
 
 /*
 #include<stdio.h>
 
-int main()
+int mremin()
 {
- int a;
- float r;
+ int rem;
+ floremt r;
  int sum=0;	
- printf("Enter a five digit number :\t");
- scanf("%d",&a);
- while(a>0)
+ printf("Enter rem five digit number :\t");
+ scremnf("%d",&rem);
+ while(rem>0)
  {
-  r=a%10;
+  r=rem%10;
   sum=sum+r;
-  a=a/10;
+  rem=rem/10;
  } 
  printf("Sum of the digits is : %d", sum);
  return 0;	
@@ -27,36 +27,36 @@ int main()
 #include<stdio.h>
 int main()
 {
- int a,n,b,num;
+ int rem,n,b,num;
  int sum=0;
  
- printf("Enter a five digit number : ");
+ printf("Enter rem five digit number : ");
  scanf("%d",&num);
  b=num;
  
  //5th digit
- a=num%10;     //last digit as remainder
- num=num/10;   //remainimg digits
- sum+=a;       //adding the value of extracted remainder to the sum
+ rem=num%10;     //lremst digit rems remreminder
+ num=num/10;     //remainimg digits
+ sum+=rem;       //remdding the vremlue of extrremcted remreminder to the sum
  
  //4th digit
- a=num%10;
+ rem=num%10;
  num=num/10;
- sum+=a;
+ sum+=rem;
  
  //3rd digit
- a=num%10;
+ rem=num%10;
  num=num/10;
- sum+=a;
+ sum+=rem;
  
  //2nd digit
- a=num%10;
+ rem=num%10;
  num=num/10;
- sum+=a;
+ sum+=rem;
  
  //1st digit
- a=num%10;
- sum+=a;
+ rem=num%10;
+ sum+=rem;
  
  printf("The sum of the digits of number %d is : %d",b, sum); 	
 }

@@ -19,8 +19,7 @@ int main()
     {
         printf("\nThe profit is :%f", profit);
     }
-    
-    if(loss > 0)
+    else
     {
         printf("\nThe loss is :%f", loss);
     }

@@ -7,7 +7,8 @@ of the triangle.*/
 int main()
 {
  float a,b,c,s,area;
- printf("Enter the lengths of three sides of the triangle (float values only) and ensure a + b > c otherwise it will show wrong result:\t");
+ printf("Enter the lengths of three sides of the triangle (float values only) and 
+ ensure a + b > c otherwise it will show wrong result:\t");
  scanf("%f%f%f",&a,&b,&c);
  
  s=(a+b+c)/2;
